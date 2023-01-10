@@ -6,7 +6,7 @@ session_start();
   <head>
           <meta charset="utf-8" />
           <title>Kino Bilecik</title>
-          <link rel="stylesheet" href="style.css" />
+          <link rel="stylesheet" href="assets/css/style.css" />
           <link rel="stylesheet" href="css/fontello.css" />
           <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Raleway:400,900|Shadows+Into+Light&amp;subset=latin-ext" rel="stylesheet" />
  </head>
