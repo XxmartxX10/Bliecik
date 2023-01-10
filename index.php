@@ -17,7 +17,8 @@ $debug->log($_SESSION); */
           <title>Kino Bilecik</title>
           <link rel="stylesheet" href="style.css" />
           <link rel="stylesheet" href="css/fontello.css" />
-          <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Raleway:400,900|Shadows+Into+Light&amp;subset=latin-ext" rel="stylesheet" />
+           <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Raleway:400,900|Shadows+Into+Light&amp;subset=latin-ext" rel="stylesheet" />
+
   </head>
   <body>
      <header>
