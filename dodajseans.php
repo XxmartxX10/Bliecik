@@ -33,9 +33,9 @@ exit;
             <li><a href="<?php if (!isset($_SESSION['user'])) {
               print 'logowanie.php">Zaloguj się</a></li>';
             } elseif (isset($_SESSION['isAdmin'])) {
-              print 'panel.php">Panel admina</a></li>';
+              print 'panel.php">Panel Administratora</a></li>';
             } else {
-              print 'panel.php">Panel użytkownika</a></li>';} ?>
+              print 'panel.php">Panel Użytkownika</a></li>';} ?>
           </ul>
         </nav>
      </header>
