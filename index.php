@@ -22,7 +22,7 @@ $debug->log($_SESSION); */
   </head>
   <body>
      <header>
-        <h1 class="loggoo"><i class="icon-video-2"></i> Kino Bilecik</h1>
+        <h1 class="logo"><i class="icon-video-2"></i> Kino Bilecik</h1>
 
         <nav id="topnav">
           <ul class="menu">

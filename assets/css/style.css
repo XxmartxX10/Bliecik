@@ -11,7 +11,7 @@ header {
 
 }
 
-h1.loggoo {
+h1.logo {
 	color: #ffffff;
 	font-size: 46px;
 	font-weight: 400px;
@@ -27,7 +27,7 @@ h1.loggoo {
 }
 
 nav {
-	background-color: rgba(0, 0, 0, 0.13);
+
 	text-align: center;
 }
 .menu {
@@ -495,3 +495,4 @@ td, th
 	text-align: left;
 
 }
+
