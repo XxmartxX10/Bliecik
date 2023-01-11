@@ -1,34 +1,21 @@
 body {
-	font-family: 'Lato', sans-serif;
-	background-color: #3e37b3;
-	color: #6987A5; 
 
+	background: rgb(80,19,115);
+	background: linear-gradient(45deg, rgba(80,19,115,1) 0%, rgba(0,0,0,1) 100%) !important; 
+	color: #fff;
 }
 header {
 	margin-right: auto;
 	margin-left: auto;
-	background-color: #3e37b3;
-
-}
-h1.logo {
-	color: #BEDCFA;
-	font-size: 46px;
-	font-weight: 900px;
-	font-family: 'Raleway', sans-serif;
-	text-align: center;
-	letter-spacing: 7px;
-	text-transform: uppercase;
-	margin-top: 30px;
-	margin-bottom: 30px;
-	padding-top: 15px;
 
 
 }
+
 h1.loggoo {
-	color: #BEDCFA;
+	color: #ffffff;
 	font-size: 46px;
 	font-weight: 400px;
-	font-family: 'Shadows Into Light';
+	font-family: 'Shadows Into Light', cursive;
 	text-align: center;
 	letter-spacing: 7px;
 	text-transform: uppercase;
@@ -40,7 +27,7 @@ h1.loggoo {
 }
 
 nav {
-	background-color: #3e37b3;
+	background-color: rgba(0, 0, 0, 0.13);
 	text-align: center;
 }
 .menu {
@@ -89,7 +76,7 @@ main {
 	min-height: 400px;
 	width: 1000px;
 	padding: 15px;
-	background-color: #17144a;
+
 }
 aside {
 	float: left;
@@ -98,20 +85,20 @@ aside {
 	margin-left: 15px;
 	min-height: 400px;
 	width: 200px;
-	background-color: #17144a;
+
 	text-align: center;
 }
 footer {
 	margin-top: 15px;
 	margin-bottom: 15px;
-	background-color: #3e37b3;
+	background-color: rgba(80,19,115,0.5);
 	color: #6987A5; 
 	text-align: center;
 	
 }
 h2 {
 	color: #BEDCFA;
-background-color: #17144a;
+
 }
 .info {
 	margin-right: auto;
@@ -119,6 +106,7 @@ background-color: #17144a;
 	text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	color: rgba(255,255,255,0.75);
 }
 
 .sub, .mail, .in, .al, .gr, .schl, .kier
@@ -336,7 +324,7 @@ input[type="checkbox"] + label span {
     font-size: 15px;
     margin: 5px 5px 0 0;
     vertical-align: middle;
-    background-color: #2A8A33;
+    background-color: #000000;
     cursor:pointer;
     box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
     border-radius: 20%;
@@ -368,7 +356,7 @@ a.button {
     appearance: button;
     text-decoration: none;
     border: none;
-    color: #00f28f;
+    color: #000000;
     background: #fff;
     font-size: 22px;
     cursor: pointer;
@@ -391,7 +379,7 @@ a.button {
 
 a.button:hover {
 	background: transparent;
-	color: #00f28f;
+	color: #440b2a;
 	border: none;
 }
 a.panel {
@@ -476,7 +464,7 @@ input[type="password"]:focus {
 input.btn{
 	
 	border: none;
-	background: #00f28f;
+	background: #000000;
 	color: #fff;
 	cursor: pointer;
 	font-size: 22px;
@@ -487,7 +475,7 @@ input.btn{
 
 input.btn:hover {
 	background: transparent;
-	color: #00f28f;
+	color: #440b2a;
 }
 
 td, th 
