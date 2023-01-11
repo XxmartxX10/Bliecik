@@ -42,27 +42,21 @@ $debug->log($_SESSION); */
      </header>
      <div class="content">
      <main>
-      <article class="zapowiedzi">
-          <header>
-            <h2>Zapowiedzi</h2>
-          </header>
+      <div id="zapowiedzi">
           
           <?php 
             $db = new PDO('sqlite:bazakina.db');
-            $day_array = array(1=>'Poniedziałek', 'Wtorek', 'Środa', 'Czwartek', 'Piątek', 'Sobota', 'Niedziela');
             $movie_query = ($db->query("select * from ZAPOWIEDZI group by TITLE"));
 
 
             while ($r = $movie_query->fetch()){
                 $cover = $r['cover'];
-                print '<section class="zapowiedz">';
-                print '<figure> <img src="'.$cover.'" width="60% height="60%" alt="plakat"/>';
-                print '<figcaption>'.$r['title'].'</figcaption></figure>';
-                print '<div class="opis"><p>'.$r['description'].'</br></br>Czas trwania: '.$r['movie_time'].'</br></br> Premiera: '.$r['premiere_date'].'</p></div>';
-                
+                print '<img class="image" src="'.$cover.'" draggable = "false" />';
+               // print '<figcaption>'.$r['title'].'</figcaption></figure>';
+              //  print '<div class="opis"><p>'.$r['description'].'</br></br>Czas trwania: '.$r['movie_time'].'</br></br> Premiera: '.$r['premiere_date'].'</p></div>';     
             }
             print '</div>';
-            print '</section>';
+
 
           ?>
  
