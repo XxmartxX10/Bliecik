@@ -12,7 +12,7 @@ session_start();
   </head>
   <body>
      <header>
-        <h1 class="loggoo"
+        <h1 class="logo"
 ><i class="icon-video-2"></i> Kino Bilecik</h1>
 
         <nav id="topnav">
