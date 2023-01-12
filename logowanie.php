@@ -7,13 +7,13 @@ session_start();
   <head>
           <meta charset="utf-8" />
           <title>Kino Bilecik</title>
-          <link rel="stylesheet" href="assets/css/style.css" />
-          <link rel="stylesheet" href="css/fontello.css" />
-           <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Raleway:400,900|Shadows+Into+Light&amp;subset=latin-ext" rel="stylesheet" />
+          <link rel="stylesheet" href="assets/css/style.css"/>
+           <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Raleway:400,900|Shadows+Into+Light|Poppins:wght@300;500;600&amp;subset=latin-ext" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
           </head>
   <body>
-     <header>
+      <header>
         <h1 class="logo"
 ><i class="icon-video-2"></i> Kino Bilecik</h1>
 
@@ -24,23 +24,43 @@ session_start();
             <li><a href="cennik.php">Cennik</a></li>
             
             <li><a href="kontakt.php">Kontakt</a></li>
-            <li><a href="<?php if (!isset($_SESSION['user'])) {
-              print 'logowanie.php">Zaloguj się</a></li>';
+            <li><a href=<?php if (!isset($_SESSION['user'])) {
+              print 'logowanie.php>Zaloguj się</a></li>';
             } elseif (isset($_SESSION['isAdmin'])) {
-              print 'panel.php">Panel Administratora</a></li>';
+              print 'panel.php>Panel Administratora</a></li>';
             } else {
-              print 'panel.php">Panel Użytkownika</a></li>';} ?>
+              print 'panel.php>Panel Użytkownika</a></li>';} ?>
           </ul>
         </nav>
-     </header>
-     <div class="content">
-     <main>
-      
-<h3>Zaloguj się </h3>
+     </header> 
+
+     <!-- literally the only purpose of this div is to stop background from tiling. wtf -->
+      <div class="elstupido" style=" width: 100%; height: 100vmin;">
+   
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <form>
+        <h3>Login Here</h3>
+
+        <label for="username">Username</label>
+        <input type="text" placeholder="Email or Phone" id="username">
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password">
+
+        <button>Log In</button>
+        <div class="social">
+          <div class="go"><i class="fab fa-google"></i>  Google</div>
+          <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
+        </div>
+    </form>
 <?php
 $user = isset($_POST['user']) ? substr(strip_tags($_POST['user']),0,64) : '';
 $pass = isset($_POST['pass']) ? $_POST['pass'] : '';
 if(!empty($user) && !empty($pass))
+
   {
  
 
@@ -70,38 +90,9 @@ if(!empty($user) && !empty($pass))
     unset($_SESSION['priv'], $_SESSION['user']);
     }
   }
-?>
-<form method="post" action="">
-Login:  <br />
-<input type="text" name="user" required="required"  value="<?php print $user; ?>" /><br /> 
-Hasło: <br />
-<input type="password" name="pass" required="required" /><br />
-<input type="submit" value="Zaloguj" class="btn" />
-</form>
+ ?> 
+ 
 
-<hr />
-  
-     </main>
-     </div>
-     
-    <footer>
-      <div class="socials">
-            <div class="fb">
-              <i class="icon-facebook-official"></i>
-            </div>
-            <div class="tw">
-              <i class="icon-twitter"></i>
-            </div>
-            <div class="insta">
-              <i class="icon-instagram"></i>
-            </div>            
-      </div> 
-
-      <div class="info">
-Zapraszamy na seanse w naszym kinie!
-      </div>
-
-    </footer>
-  </body>
+      </body>
   
 </html>
