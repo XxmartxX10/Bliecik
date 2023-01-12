@@ -111,9 +111,7 @@ enhance("channel-link");
             </div>
       </div>
 
-      <div class="info">
-Zapraszamy na seanse w naszym kinie!
-      </div>
+
 
     </footer>
   </body>

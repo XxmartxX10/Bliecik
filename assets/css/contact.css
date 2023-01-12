@@ -25,7 +25,8 @@
   
   body {
     height: 100vh;
-    background-color: black;
+    background: rgb(80,19,115);
+    background: linear-gradient(45deg, rgba(80,19,115,1) 0%, rgba(0,0,0,1) 100%) !important;
     margin: 0rem;
     overflow: hidden;
     display: grid;
