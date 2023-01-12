@@ -36,11 +36,11 @@ session_start();
 
       <div id="text"><div id="text">
   <div class="line">
-    <p class="word">Transgender</p>
+    <p class="word">The very best</p>
   </div>
 
   <div class="line">
-    <p class="word">Girl</p>
+    <p class="word">Femboy</p>
     <p class="word">&</p>
   </div>
 

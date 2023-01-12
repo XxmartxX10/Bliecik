@@ -41,14 +41,14 @@ session_start();
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
-    <form>
+    <form method="post" action="">
         <h3>Login Here</h3>
 
         <label for="username">Username</label>
-        <input type="text" placeholder="Email or Phone" id="username">
+        <input type="text" placeholder="Email or Phone" id="username" name="user">
 
         <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password">
+        <input type="password" placeholder="Password" id="password" name="pass">
 
         <button>Log In</button>
         <div class="social">
@@ -86,12 +86,22 @@ if(!empty($user) && !empty($pass))
     }
   else
     {
-    print '<p class="error">Niepoprawne dane logowania</p>'.PHP_EOL;
+    print '<div id = "baderror" style="display: none;">wrong</div>'.PHP_EOL;
     unset($_SESSION['priv'], $_SESSION['user']);
     }
   }
  ?> 
- 
+ <script>
+  var noidea = document.getElementById("baderror");
+  var iwillthinkofabetternamelater = noidea.textContent;
+   
+  
+  if (iwillthinkofabetternamelater.toString == "wrong") {
+    window.alert("You fucking donkey")
+  }
+//TODO
+//pop up when bad password
+  </script>
 
       </body>
   
