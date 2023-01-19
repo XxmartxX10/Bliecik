@@ -20,9 +20,7 @@ $debug->log($_SESSION); */
            <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Raleway:400,900|Shadows+Into+Light&amp;subset=latin-ext" rel="stylesheet" />
            <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-/>
-
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
 
@@ -65,10 +63,9 @@ $debug->log($_SESSION); */
                 $cover = $r['cover'];
                 
                 print '<div class="swiper-slide" style="background-image:url('.$cover.')"> </div>';
-                // print '<figcaption>'.$r['title'].'</figcaption></figure>';
-                // print '<div class="opis"><p>'.$r['description'].'</br></br>Czas trwania: '.$r['movie_time'].'</br></br> Premiera: '.$r['premiere_date'].'</p></div>';     
+                 
+                
             }
-            print '</div>';
 
 
           ?> 
@@ -106,6 +103,7 @@ Zapraszamy na seanse w naszym kinie!
 
     </footer>
     <script>
+      
       const swiper = new Swiper('.swiper', {
   // Optional parameters
   loop: true,
