@@ -7,7 +7,7 @@ session_start();
   <head>
           <meta charset="utf-8" />
           <title>Kino Bilecik</title>
-          <link rel="stylesheet" href="assets/css/style.css"/>
+          <link rel="stylesheet" href="assets/css/login.css"/>
            <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Raleway:400,900|Shadows+Into+Light|Poppins:wght@300;500;600&amp;subset=latin-ext" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
@@ -73,15 +73,11 @@ if(!empty($user) && !empty($pass))
   $res->execute();
   if($row=$res->fetch())
     {
-        print '<p>Witaj <b>'.$row['user'].'!</p>'.PHP_EOL;
         $_SESSION['user'] = $row['user'];
         $_SESSION['priv'] = $row['priv'];
     $_SESSION['isAdmin'] = $row['isAdmin'];
         if(($_SESSION['priv'] & 1) > 0) {
-          print '<a href="panel.php" class="button">panel</a>'.PHP_EOL;
-          
-          print '<a href="wyloguj.php" class="button">Wyloguj się</a>'.PHP_EOL;
-          print '<br /><hr />';
+      header("Location:panel.php");
         }
     }
   else
