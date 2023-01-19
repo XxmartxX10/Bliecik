@@ -33,7 +33,7 @@ else {
           <ul class="menu">
             <li><a href="index.php">Strona główna</a></li>
             <li><a href="repertuar.php">Repertuar</a></li>
-            <li><a href="cennik.php">Cennik</a></li>
+            
             
             <li><a href="kontakt.php">Kontakt</a></li>
             <li><a href="<?php if (!isset($_SESSION['user'])) {
