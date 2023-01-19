@@ -90,7 +90,16 @@ session_start();
                 ?>
 
             </div>
-             
+            <?php
+            $db = new PDO('sqlite:bazakina.db');
+              $price_query = ($db->query("select * from pricelist"));
+              print '<center><table><tr><th>Lp</th><th>Rodzaj biletu</th><th>Cena</th></tr>';
+              while ($r = $price_query->fetch()){
+                
+                print'<tr><td>'.$r['id_tic'].'</td><td>'.$r['type'].'</td><td>'.$r['price'].'</td></tr>';
+              }
+              print '</table></center>';
+          ?>
                 
             <div class="dane">
             <?php
