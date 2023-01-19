@@ -176,3 +176,18 @@ h1 {
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
+  button{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 56px;
+    font-size: 18px;
+    color: rgb(68, 68, 68);
+    padding-left: 40px;
+    box-sizing: border-box;
+    margin-top: 12px;
+    box-shadow: -3px -3px 7px #ffffff73,
+                2px 2px 5px rgba(128, 135, 148, 0.562);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: 0.4s;
+  }
