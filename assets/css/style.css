@@ -495,3 +495,8 @@ td, th
 	text-align: left;
 
 }
+.swiper {
+	width: 550px;
+	height: 750px;
+  }
+  

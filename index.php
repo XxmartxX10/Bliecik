@@ -18,6 +18,13 @@ $debug->log($_SESSION); */
           <link rel="stylesheet" href="assets/css/style.css" />
           <link rel="stylesheet" href="css/fontello.css" /> 
            <link href="https://fonts.googleapis.com/css?family=Lato:400,900|Raleway:400,900|Shadows+Into+Light&amp;subset=latin-ext" rel="stylesheet" />
+           <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
 
   </head>
   <body>
@@ -44,21 +51,36 @@ $debug->log($_SESSION); */
      <main>
       <div id="zapowiedzi">
           
-          <?php 
+         
+          <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides --> <?php 
             $db = new PDO('sqlite:bazakina.db');
             $movie_query = ($db->query("select * from ZAPOWIEDZI group by TITLE"));
 
 
             while ($r = $movie_query->fetch()){
                 $cover = $r['cover'];
-                print '<img class="image" src="'.$cover.'" draggable = "false" />';
-               // print '<figcaption>'.$r['title'].'</figcaption></figure>';
-              //  print '<div class="opis"><p>'.$r['description'].'</br></br>Czas trwania: '.$r['movie_time'].'</br></br> Premiera: '.$r['premiere_date'].'</p></div>';     
+                
+                print '<div class="swiper-slide" style="background-image:url('.$cover.')"> </div>';
+                // print '<figcaption>'.$r['title'].'</figcaption></figure>';
+                // print '<div class="opis"><p>'.$r['description'].'</br></br>Czas trwania: '.$r['movie_time'].'</br></br> Premiera: '.$r['premiere_date'].'</p></div>';     
             }
             print '</div>';
 
 
-          ?>
+          ?> 
+  </div>
+
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+</div>
+
  
        </article>
       
@@ -83,6 +105,23 @@ Zapraszamy na seanse w naszym kinie!
       </div>
 
     </footer>
+    <script>
+      const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  loop: true,
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+</script>
   </body>
   
 </html>
