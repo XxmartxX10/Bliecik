@@ -27,12 +27,12 @@
 </header>
 <ul>
     <li><a href="#"><i class="fa fa-qrcode"></i>Dashboard</a></li>
-    <li><a href="#"><i class="fa fa-link"></i>Shortcuts</a></li>
-    <li><a href="#"><i class="fa fa-eye"></i>Overview</a></li>
-    <li><a href="#"><i class="fa fa-book"></i>Rezerwacje</a></li>
-    <li><a href="#"><i class="fa fa-eye"></i>Seanse</a></li>
-    <li><a href="#"><i class="fas fa-cog"></i>Service</a></li>
-    <li><a href="index.php"><i class="fas fa-user-shield"></i>Wyloguj się</a></li>
+    <li><a href="404.php"><i class="fa fa-link"></i>Shortcuts</a></li>
+    <li><a href="404.php"><i class="fa fa-eye"></i>Overview</a></li>
+    <li><a href="edytrezerwacje.php"><i class="fa fa-book"></i>Rezerwacje</a></li>
+    <li><a href="dodajseans.php"><i class="fa fa-eye"></i>Seanse</a></li>
+    <li><a href="404.php"><i class="fas fa-cog"></i>Service</a></li>
+    <li><a href="wyloguj.php"><i class="fas fa-user-shield"></i>Wyloguj się</a></li>
     </ul>
    <li>
       <div class="social-links">
@@ -51,13 +51,16 @@
  
 <div id="grid-col">
   <div class="cell">
-<h3>DEPL</h3>
+<h3>Rezerwacje:</h3>
+<center><a href="edytrezerwacje.php"><button>Edytuj</button></a> </center>
   </div> 
   <div class="cell">
-<h3>oeu</h3>
+<h3>Seanse</h3>
+<center> <a href="dodajseans.php"><button>Dodaj</button></a> </center>
   </div>
   <div class="cell">
-<h3>aoeu</h3>
+<h3>Wyloguj się</h3>
+<center> <a href="wyloguj.php"><button>Wyloguj się</button></a> </center>
   </div>
 </div>
 </div>
