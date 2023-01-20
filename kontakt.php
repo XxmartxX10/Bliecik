@@ -97,18 +97,6 @@ const enhance = id => {
 enhance("channel-link");
 </script>
 
-    <footer>
-      <div class="socials">
-            <div class="fb">
-              <i class="icon-facebook-official"></i>
-            </div>
-            <div class="tw">
-              <i class="icon-twitter"></i>
-            </div>
-            <div class="insta">
-              <i class="icon-instagram"></i>
-            </div>
-      </div>
 
 
 
