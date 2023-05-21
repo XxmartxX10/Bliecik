@@ -17,6 +17,15 @@ Cinema App is a revolutionary PHP application designed specifically for cinemas.
 - Customer management: Allows you to keep track of customer information including their purchase history and contact information.
 
 
+Clone the repository: git clone https://github.com/Felix-1871/php-app
+Install the dependencies: composer install
+Update the config/database.php file with your database credentials
+Start the development server: php -S localhost:8000
+The app will now be running at http://localhost:8000
+
+
+
+
 # 💻 Tech Stack:
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
