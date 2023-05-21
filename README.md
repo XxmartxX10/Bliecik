@@ -1,4 +1,4 @@
-![CINEMA APP (3)](https://github.com/XxmartxX10/Bliecik/assets/100945749/a66d5027-00c7-4502-bfd2-d8040e3e27bd)
+                                 ![CINEMA APP (3)](https://github.com/XxmartxX10/Bliecik/assets/100945749/a66d5027-00c7-4502-bfd2-d8040e3e27bd)
 
 
 
