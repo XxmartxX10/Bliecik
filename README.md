@@ -12,3 +12,16 @@ Cinema App is a revolutionary PHP application designed specifically for cinemas.
 - Online booking payment.
 - Viewing ticket bookings history.
 - Selection of seats in the cinema hall
+
+## 🚀 Technologies
+- CSS
+- PHP
+
+
+
+## 📝 License
+
+Licensed under the [MIT License].
+
+
+
