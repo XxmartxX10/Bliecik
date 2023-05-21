@@ -16,12 +16,12 @@ Cinema App is a revolutionary PHP application designed specifically for cinemas.
 - Reports: allows you to generate and view detailed reports on ticket sales, concessions, and employee performance.
 - Customer management: Allows you to keep track of customer information including their purchase history and contact information.
 
-
-Clone the repository: git clone https://github.com/Felix-1871/php-app
-Install the dependencies: composer install
-Update the config/database.php file with your database credentials
-Start the development server: php -S localhost:8000
-The app will now be running at http://localhost:8000
+# 🥇 Getting Started
+1. Clone the repository: git clone https://github.com/Felix-1871/php-app
+2. Install the dependencies: composer install
+3. Update the config/database.php file with your database credentials
+4. Start the development server: php -S localhost:8000
+5. The app will now be running at http://localhost:8000
 
 
 
