@@ -8,12 +8,7 @@ Cinema App is a revolutionary PHP application designed specifically for cinemas.
 
 ## :sparkles: App Features
 
-- Authentication.
-- Browsing movies.
-- Viewing movie details.
-- Watching movie trailers.
-- Checking available movie shows.
-- Theater seat map for ticket selection.
 - Online ticket booking.
 - Online booking payment.
 - Viewing ticket bookings history.
+- Selection of seats in the cinema hall
