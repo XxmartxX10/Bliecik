@@ -23,7 +23,7 @@ Cinema App is a revolutionary PHP application designed specifically for cinemas.
 4. Start the development server: php -S localhost:8000
 5. The app will now be running at http://localhost:8000
 
-
+# 📱Screens
 
 
 # 💻 Tech Stack:
