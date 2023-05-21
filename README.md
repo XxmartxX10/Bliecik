@@ -12,6 +12,9 @@ Cinema App is a revolutionary PHP application designed specifically for cinemas.
 - Online booking payment.
 - Viewing ticket bookings history.
 - Selection of seats in the cinema hall
+- Employees management: This feature allows you to manage employees information and assign them different roles and permission in the system.
+- Reports: allows you to generate and view detailed reports on ticket sales, concessions, and employee performance.
+- Customer management: Allows you to keep track of customer information including their purchase history and contact information.
 
 
 # 💻 Tech Stack:
