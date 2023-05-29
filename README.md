@@ -23,7 +23,7 @@ This option will allow you to precisely distribute tasks among everyone.
 
 
 # 🥇 Getting Started
-1. Clone the repository: git clone https://github.com/Felix-1871/php-app
+1. Clone the repository
 2. Install the dependencies: composer install
 3. Update the config/database.php file with your database credentials
 4. Start the development server: php -S localhost:8000
