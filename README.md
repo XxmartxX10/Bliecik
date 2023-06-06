@@ -47,10 +47,7 @@ Testing and evaluation: Thanks to the mokap, you can install usability tests, pr
 
 
 # 📱Screens
-!![image](https://github.com/XxmartxX10/Bliecik/assets/100945749/239c4197-ed62-4ed6-a1b5-b4244e1ff668)
-![image](https://github.com/XxmartxX10/Bliecik/assets/100945749/60dd65b6-1fbc-4a7f-b646-0698a2f2293d)
-![image](https://github.com/XxmartxX10/Bliecik/assets/100945749/4e2ceaf4-997f-4e3e-8466-70f821d6f81a)
-![image](https://github.com/XxmartxX10/Bliecik/assets/100945749/e6113551-62a3-40ea-9edf-ff459c0cca07)
+![image](https://github.com/XxmartxX10/Bliecik/assets/100945749/c1a3b8ee-c51f-4630-b283-1e80b196f4ad)
 
 
 # 🧑‍💻Requirements
