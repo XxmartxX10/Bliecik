@@ -3,7 +3,7 @@
 
 
 # 🎦 About project 
-Cinema App is a revolutionary PHP application designed specifically for cinemas. With its user-friendly interface and powerful features, it makes managing your cinema a breeze. Whether you're a small independent theater or a large multiplex, this app has everything you need to streamline your operations and improve your bottom line.
+Cinema App is a revolutionary PHP application designed specifically for cinemas. With its user-friendly interface and powerful features, it makes managing your cinema a breeze. Whether you're a small independent theater or a large multiplex, this app has everything you need to streamline your operations and improve your bottom line. We have created an application that allows users to select seats in the cinema and make ticket reservations. Our application provides a convenient and intuitive interface that allows you to easily navigate through available film screenings and choose your preferred seat in the cinema hall
 
 
 ## :sparkles: App Features
