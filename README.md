@@ -49,6 +49,8 @@ Testing and evaluation: Thanks to the mokap, you can install usability tests, pr
 # 📱Screens
 ![image](https://github.com/XxmartxX10/Bliecik/assets/100945749/c1a3b8ee-c51f-4630-b283-1e80b196f4ad)
 
+# 🫂 Teamwork/Trello
+Trello is an online project management tool that allows you to organize tasks, track work progress, and collaborate as a team. It is useful in various areas such as project management, task scheduling, team organization, scheduling and many more. This tool was used to monitor performance
 
 # 🧑‍💻Requirements
 PHP 7.2 or later MySQL 5.7 or later
