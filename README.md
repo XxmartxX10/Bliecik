@@ -28,6 +28,12 @@ This option will allow you to precisely distribute tasks among everyone.
 3. Update the config/database.php file with your database credentials
 4. Start the development server: php -S localhost:8000
 5. The app will now be running at http://localhost:8000
+# 😎 Application visualization
+A mockup of an application in Figma (Figma) is a visual prototype or sketch of an application user that can be created in graphic design tools such as Figma. Creating a mockup application in Figma has many benefits:
+
+Visualization: Mokap allows you to create a realistic picture of how the application will benefit after implementation. It allows for a better understanding of the user's structure, appearance and appearance.
+
+Testing and evaluation: Thanks to the mokap, you can install usability tests, present the project to clients or other people interested in the activity. Collecting feedback early allows for a common and correct change before each implementation.
 
 # 📱Screens
 
