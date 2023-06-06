@@ -44,10 +44,14 @@ A mockup of an application in Figma (Figma) is a visual prototype or sketch of a
 Visualization: Mokap allows you to create a realistic picture of how the application will benefit after implementation. It allows for a better understanding of the user's structure, appearance and appearance.
 
 Testing and evaluation: Thanks to the mokap, you can install usability tests, present the project to clients or other people interested in the activity. Collecting feedback early allows for a common and correct change before each implementation.
-![image](https://github.com/XxmartxX10/Bliecik/assets/100945749/e1ed6cc0-e086-4a8f-b120-7c114fc298ef)
 
 
 # 📱Screens
+![image](https://github.com/XxmartxX10/Bliecik/assets/100945749/239c4197-ed62-4ed6-a1b5-b4244e1ff668)
+![image](https://github.com/XxmartxX10/Bliecik/assets/100945749/60dd65b6-1fbc-4a7f-b646-0698a2f2293d)
+![image](https://github.com/XxmartxX10/Bliecik/assets/100945749/4e2ceaf4-997f-4e3e-8466-70f821d6f81a)
+![image](https://github.com/XxmartxX10/Bliecik/assets/100945749/e6113551-62a3-40ea-9edf-ff459c0cca07)
+
 
 # 🧑‍💻Requirements
 PHP 7.2 or later MySQL 5.7 or later
